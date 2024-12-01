@@ -60,7 +60,7 @@ To set up and run the **Air Ticket Reservation System**, follow these steps:
    ```bash
    git clone https://github.com/NanGyeThote/air-ticket-reservation-system.git
    cd air-ticket-reservation-system
-
+## Setups
 2. **Set up MySQL Database**:
 
 -- **Create a database in MySQL** (e.g., air_ticket_reservation).
