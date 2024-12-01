@@ -58,5 +58,43 @@ To set up and run the **Air Ticket Reservation System**, follow these steps:
 ### Steps:
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/nangyethote/air-ticket-reservation-system.git
+   git clone https://github.com/NanGyeThote/air-ticket-reservation-system.git
    cd air-ticket-reservation-system
+
+2. **Set up MySQL Database**:
+
+-- **Create a database in MySQL** (e.g., air_ticket_reservation).
+-- **Import the database schema from db_schema.sql** (provided in this repo).
+-- **Configure Database Connection**:
+
+-- **Open the WEB-INF/web.xml or META-INF/context.xml file and configure the MySQL database connection** (database name, username, password, etc.).
+-- **Deploy on Apache Tomcat**:
+
+-- **Copy your project to the webapps directory of your Tomcat installation**.
+-- **Start Tomcat via the Tomcat server management interface**.
+-- **Access the Application**:
+
+-- **Open your browser and go to**: 
+  ```bash
+http://localhost:8080/air-ticket-reservation-system/
+-- **Log in or register a new account to start using the system.
+```
+-- **Usage**
+-- **User Roles**:
+-- **Customer**:
+
+-- **Register and log in to the system**.
+-- **Search for available flights**.
+-- **Book tickets and view bookings**.
+-- **Cancel or modify reservations**.
+-- **Admin**:
+
+-- **Log in to the admin panel**.
+-- **Add, update, or delete flights**.
+-- **View all customer bookings**.
+-- **Example Use Case**:
+-- **Search Flights: A user enters their departure city, destination, and travel date. The system will show all available flights**.
+-- **Book a Ticket: A user selects a flight, enters passenger information, and completes the booking**.
+-- **Admin Features: Admins can update the flight schedule, add new flights, or cancel old ones**.
+-- **Folder Structure**
+-- **Here’s a brief overview of the project’s folder structure**:
