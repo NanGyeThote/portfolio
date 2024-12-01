@@ -1,6 +1,6 @@
 # Air Ticket Reservation System (Java EE JSP) for Myanmar
 
-This is a **Java EE-based Air Ticket Reservation System** designed for **Myanmar**. The system provides a web-based interface for booking flights, checking available flights, and managing reservations. It is built using **JSP**, **Servlets**, and **MySQL** as the database backend.
+This is a **Java EE-based Air Ticket Reservation System** designed for **Myanmar**. The system provides a web-based interface for booking flights, checking available flights, and managing reservations. It is built using **JSP**, **Servlets**, **REST API** and **MySQL** as the database backend.
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
