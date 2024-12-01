@@ -98,3 +98,42 @@ http://localhost:8080/air-ticket-reservation-system/
 -- **Admin Features: Admins can update the flight schedule, add new flights, or cancel old ones**.
 -- **Folder Structure**
 -- **Here’s a brief overview of the project’s folder structure**:
+
+air-ticket-reservation-system/
+│
+├── src/
+│   ├── com/
+│   │   ├── controller/         # Servlets for handling requests
+│   │   ├── dao/                # Data Access Objects (DB interaction)
+│   │   ├── model/              # Model classes for flight, user, booking
+│   │   └── util/               # Utility classes for common functions
+│   └── webapp/
+│       ├── WEB-INF/
+│       │   ├── web.xml         # Deployment descriptor
+│       │   ├── context.xml     # Database connection settings
+│       ├── index.jsp           # Landing page
+│       ├── booking.jsp         # Flight booking page
+│       └── admin/              # Admin interface for flight management
+├── db_schema.sql              # MySQL database schema
+├── README.md                  # Project documentation
+└── pom.xml                     # Maven project configuration (optional)
+
+Database Schema
+The database schema is provided in the db_schema.sql file. It contains the necessary tables for managing users, flights, and bookings. Here's a brief overview of the key tables:
+
+Users: Stores user information (id, username, password, role).
+Flights: Stores flight information (flight_id, origin, destination, departure_time, etc.).
+Bookings: Stores customer bookings (booking_id, user_id, flight_id, booking_time).
+Contributing
+We welcome contributions to this project! If you would like to contribute, please follow these steps:
+
+Fork the repository.
+Create a new branch (git checkout -b feature-branch).
+Commit your changes (git commit -am 'Add new feature').
+Push to your forked repository (git push origin feature-branch).
+Open a pull request.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Contact Information
+If you have any questions or need further assistance, feel free to contact me at your-email@example.com.
