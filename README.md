@@ -133,6 +133,64 @@ If you prefer using Maven to build the project, make sure you have Maven install
 ```
 This will create a .war file inside the target folder, which can be deployed in Tomcat.
 
-  
+## Usage
+- **After logging in, users can search for flights, book tickets, and view their bookings.**
+- **Admins can manage flights, bookings, and user data through the admin panel.**
+
+## Folder Structure
+
+   ```bash
+   air-ticket-reservation-system/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/               # Java source files (Servlets, Models)
+│   │   ├── resources/          # Configuration files (e.g., context.xml)
+│   │   └── webapp/             # JSP files and static resources (HTML, CSS, JS)
+│   └── test/                   # Test files (unit tests)
+├── target/                     # Built WAR file and compiled classes
+├── schema.sql                  # Database schema
+└── pom.xml                     # Maven configuration (if using Maven)
+```
+
+## Database Schema
+
+The database schema (schema.sql) includes tables such as users, flights, bookings, etc. Here is a brief overview:
+
+- **users table stores user details such as username, password, and role (user/admin).**
+- **flights table stores flight information such as departure, destination, time, and available seats.**
+- **bookings table stores booking details, including flight ID, user ID, and payment status.**
+
+## Contributing
+
+Contributions are welcome! To contribute to this project:
+
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-name).
+3. Commit your changes (git commit -am 'Add new feature').
+4. Push to the branch (git push origin feature-name).
+5. Create a new Pull Request.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact Information
+
+If you have any questions or suggestions, feel free to reach out to the project maintainer at:
+
+- **Email: skypalss@example.com**
+- **GitHub: https://github.com/NanGyeThote**
+
+```bash
+
+---
+
+This version includes step-by-step installation instructions, database setup, and deployment instructions, formatted appropriately for a **README.md** file. Let me know if you need further adjustments!
+
+```
+
+
+
 
 
