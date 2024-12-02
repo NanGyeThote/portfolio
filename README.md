@@ -78,3 +78,23 @@ Inside the project folder, you should find a file called schema.sql. This file c
    ```
 Replace path_to_project with the actual path to the schema.sql file in your project directory.
 
+### **Set Up Database Credentials**:
+
+In the web.xml or context.xml (depending on your configuration), configure the database connection settings, such as:
+   ```bash
+   <Resource name="jdbc/MySQLDS" auth="Container" type="javax.sql.DataSource"
+  driverClassName="com.mysql.cj.jdbc.Driver"
+  url="jdbc:mysql://localhost:3306/air_ticket_reservation"
+  username="root" password="your_password" maxActive="100" />
+```
+Update username, password, and url with your actual database settings.
+
+### **Set Up Apache Tomcat**:
+- **Download and Install Apache Tomcat**:
+
+Download and unzip the Apache Tomcat binary to your preferred directory.
+- **Download and Install Apache Tomcat**:
+
+In the bin folder of your Tomcat installation, run:
+
+### **On Linux/macOS**:
