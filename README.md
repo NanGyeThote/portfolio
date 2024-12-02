@@ -89,7 +89,7 @@ In the web.xml or context.xml (depending on your configuration), configure the d
 ```
 Update username, password, and url with your actual database settings.
 
-### **Set Up Apache Tomcat**:
+### 3. **Set Up Apache Tomcat**:
 - **Download and Install Apache Tomcat**:
 
 Download and unzip the Apache Tomcat binary to your preferred directory.
@@ -98,3 +98,41 @@ Download and unzip the Apache Tomcat binary to your preferred directory.
 In the bin folder of your Tomcat installation, run:
 
 ### **On Linux/macOS**:
+Run startup.bat from the bin directory.
+
+### **Deploy the Application**:
+
+After building the project (if using Maven), the .war file will be created in the target folder. You can manually copy this WAR file to the webapps directory of Tomcat, or if you are using Maven, deploy it automatically by executing:
+
+   ```bash
+   mvn clean install
+```
+
+Then, Tomcat will automatically deploy the application.
+
+
+```bash
+cd /path/to/tomcat/bin
+./startup.sh
+```
+
+### **4. Access the Application**:
+- **Once Tomcat is running, open your web browser and go to**:
+
+   ```bash
+   http://localhost:8080/air-ticket-reservation-system
+   ```
+  - **You should see the home page of the Air Ticket Reservation System. You can log in, register a new user, and start booking flights!**:
+
+### **5. (Optional) Build the Project Using Maven**:
+
+If you prefer using Maven to build the project, make sure you have Maven installed, then run the following commands to build and deploy:
+
+   ```bash
+   mvn clean install
+```
+This will create a .war file inside the target folder, which can be deployed in Tomcat.
+
+  
+
+
