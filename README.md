@@ -65,3 +65,16 @@ To set up and run the **Air Ticket Reservation System**, follow these steps:
 - **Create the MySQL Database**:
 
 Log in to MySQL and create a new database:
+   ```bash
+   CREATE DATABASE air_ticket_reservation;
+   ```
+
+### **Import the Database Schema**:
+
+Inside the project folder, you should find a file called schema.sql. This file contains the SQL schema to create the necessary tables for your system. Run the following command to import the schema into the newly created database:
+
+   ```bash
+   mysql -u root -p air_ticket_reservation < path_to_project/schema.sql
+   ```
+Replace path_to_project with the actual path to the schema.sql file in your project directory.
+
