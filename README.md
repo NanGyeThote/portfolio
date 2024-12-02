@@ -63,3 +63,4 @@ To set up and run the **Air Ticket Reservation System**, follow these steps:
 ```
 ### 2. **Set Up the MySQL Database**
 - **Create the MySQL Database**:
+Log in to MySQL and create a new database:
