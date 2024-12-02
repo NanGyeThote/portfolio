@@ -56,8 +56,10 @@ To set up and run the **Air Ticket Reservation System**, follow these steps:
 - **Maven** (optional): If you prefer to build the project with Maven, ensure it's installed.
 
 ### Steps:
-**Clone the Repository**:
+### 1.**Clone the Repository**:
    ```bash
    git clone https://github.com/NanGyeThote/air-ticket-reservation-system.git
    cd air-ticket-reservation-system
-
+```
+### 2. **Set Up the MySQL Database**
+- **Create the MySQL Database**:
